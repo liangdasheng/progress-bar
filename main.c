@@ -3,7 +3,7 @@
 
 int main()
 {
-  char split[4]= {'-','/','|','\'};
+  char split[4]= {'-','/','|','\\'};
   char buf[1024] = {0};
   int i = 0;
   for(; i < 100; ++i)
